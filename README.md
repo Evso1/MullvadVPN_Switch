@@ -35,7 +35,7 @@ Perfect for advanced privacy users who want to avoid log-term IP association or 
 
 
 #Debugging Tips:
-  If the script appears stuck or not connecting:
+  - If the script appears stuck or not connecting:
     - make sure mullvad is running and connected 'mullvad status'
     - test internet connectivity 
     - check if API is reachable 'curl https://api.mullvad.net/www/relays/wireguard/'
