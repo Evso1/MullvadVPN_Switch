@@ -102,7 +102,7 @@ def main(duration):
     try:
         servers = getMullvadServers()
 
-        server_codes = [server['hostname'] for server in servers if 'hostname' in server and server.get('country') not in excluded_countries]
+        server_codes = [server['hostname'] for server in servers if 'hostname' in server and server.get('country_code') not in excluded_countries]
 
         while True:
             log_file_name = getLogFile()
