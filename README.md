@@ -1,3 +1,5 @@
 # MullvadVPN_Switch
 
-This contains my personal python and bash scripts that I have written for automation
+Personal Automation that switches the VPN server for the amount of seconds you set it to. 
+
+Black list is implemented for countries with unsecure government and 
