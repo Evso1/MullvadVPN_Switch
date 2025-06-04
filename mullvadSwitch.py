@@ -11,7 +11,7 @@ import sys
 import fcntl
 
 
-logDirectory = "/home/burland/scripts/MullAuto/Logs"
+logDirectory = "/path/to/log/directory"
 
 lock_file_path = "/tmp/mullvadSwitch.lock"
 fp = open(lock_file_path, 'w')
