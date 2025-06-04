@@ -3,7 +3,7 @@
 # === Mullvad Server Switcher Helper ===
 
 SCRIPT_NAME="mullvadSwitch.py"
-LOG_DIR="/home/burland/scripts/MullAuto/Logs"
+LOG_DIR="/path/tolog/directory"
 PID_FILE="/tmp/mullvadSwitch.pid"
 
 start_script(){
